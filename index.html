@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to our company</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/header-bg.png" />
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="css/new.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="css/responsive-style.css"> -->
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/favicon.png" class="img-fluid" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./team.html">OurTeam</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./price.html">Prices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn" href="./price.html">Order Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar section exit -->
+<!-- heading -->
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col">
+      <h1><span class="badge bg-secondary">HEARTY DRINKS</span></h1>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+</div>
+<!-- end of heading -->
+<!-- coursel -->
+<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/banner-slide/about-banner.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/banner-slide/Banner-1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/banner-slide/top-banner.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- end of coursel -->
+<!-- Services section -->
+<section id="services" class="services_wrapper">
+    <div class="counter mt-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                    <h1>
+                        <span id="count1"></span>+
+                    </h1>
+                    <p>Mango Juice Happy Clients</p>
+                </div>
+                <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                    <h1>
+                        <span id="count2"></span>+
+                        </h2>
+                        <p>Orange Juice Happy Clients</p>
+                </div>
+                <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                    <h1>
+                        <span id="count3"></span>+
+                        </h2>
+                        <p>Mixed Juice Happy Clients</p>
+                </div>
+                <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                    <h1>
+                        <span id="count4"></span>+
+                        </h2>
+                        <p>Other Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Services section Exit -->
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+      <div class="container pb-3">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <h5>Company Location</h5>
+            <p class="ps-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              dignissim erat ut laoreet pharetra....
+            </p>
+            <div class="contact-info">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-home me-3"></i> No. 96, South City,
+                    London</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-envelope me-3"></i>info@example.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>More Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Office</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Our Store</a></li>
+              <li><a href="#">Guarantee</a></li>
+              <li><a href="#">Buy Gift Card</a></li>
+              <li><a href="#">Return Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Demo Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Office</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Our Store</a></li>
+              <li><a href="#">Guarantee</a></li>
+              <li><a href="#">Buy Gift Card</a></li>
+              <li><a href="#">Return Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Newsletter</h5>
+            <div class="form-group mb-4">
+              <input
+                type="email"
+                class="form-control bg-transparent"
+                placeholder="enter your email here"
+              />
+              <button
+                type="submit"
+                class="main-btn rounded-2 mt-3 border-white text-white"
+              >
+                Subscribe
+              </button>
+            </div>
+            <h5>Stay Connected</h5>
+            <ul class="social-network d-flex align-items-center p-0">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-vimeo-v"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright-section">
+        <p>Copyright <a href="#">Â© CODE4EDUCATION.</a> All Rights Reserved</p>
+      </div>
+    </section>
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
